@@ -533,3 +533,8 @@ h3:hover {
     }
 
 }
+@media only screen and (max-width: 550px) {
+    #sai-baba-img {
+        transform: translateY( calc((1px * (var(--client-width) - 550) * -0.50)));
+    }
+}
