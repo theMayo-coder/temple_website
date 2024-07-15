@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Temple Home Page</title>
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
+    </head>
+
+    <body>
+        
+        <div id="title-div">
+            <h1 id="title-text">Gitacharya Sri Sai Temple</h1>
+        </div>
+
+        <div id="img-overlay">
+            <img src="assets/main.jpg" alt="Sai Baba" id="sai-baba-img">
+        </div>
+
+        <div id="nav-bar">
+
+                <div>
+                    <button type="button" class="relocate home-button">Home</button>
+                </div>
+    
+                <div>
+                    <button type="button" class="relocate about-us-button">About Us</button>
+                </div>
+    
+                <div>
+                    <button type="button" class="relocate temple-services-button">Temple Services</button>
+                </div>
+    
+                <div>
+                    <button type="button" class="relocate events-button">Events</button>
+                </div>
+
+            <div class="dropdown">
+
+                <button class="dropbtn">
+                    <h1>Menu</h1>
+                    <div class="triangle-up"></div>
+                </button>
+
+                <div class="dropdown-content">
+                    <button type="button" class="relocate home-button">Home</button>
+                    <button type="button" class="relocate about-us-button">About Us</button>
+                    <button type="button" class="relocate temple-services-button">
+                        <div>
+                            Temple Services
+                        </div>
+                    </button>
+                    <button type="button" class="relocate events-button">Events</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- this is a comment to seperate the header from the rest -->
+    
+        <div id="scroll">
+
+            <div id="main-flexbox">
+                <div id="temple-timings">
+                    <div class="main-table-title">
+                        <h1>
+                            Temple Timings
+                        </h1>
+                    </div>
+                    <h2>
+                        Everyday: 
+                        <br>
+                        10:30AM - 12:30PM
+                        <br>
+                        5:30PM - 8PM
+                    </h2>
+                    <div class="main-table-title">
+                        <h1>
+                            Donate Now
+                        </h1>
+                    </div>
+                    <h2>
+                        The temple serves as a beacon of peace and spirituality for many devotees. We require ongoing support for its upkeep and operational expenses to continue offering this sacred space for worship and community gatherings.
+                        <br>
+                        <br>
+                        We'd like to ask you to contribute, no matter how big or small. Every bit counts! ✨
+                        <br>
+                        <br>
+                        Donate quickly and securely through the online payment we've included below.
+                    </h2>
+                    <a href="index_copy.html">
+                        <button id="donate-button">
+                            Donate
+                        </button>
+                    </a>
+                    <h2>
+                        Your generosity will help us preserve this sacred space for generations to come.
+                        <br>
+                        Jai Sai Ram!!
+                    </h2>
+                </div>
+
+                <div id="temple-updates">
+
+                    <div class="main-table-title">
+                        <h1>
+                            From Our Temple
+                        </h1>
+                    </div>
+
+                    <div class="img-flexbox">
+                        <img src="assets/img8.jpg" alt="Sai Baba">
+                        <img src="assets/img9.jpg" alt="Sai Baba">
+                    </div>
+                    <div class="img-flexbox">
+                        <img src="assets/img6.jpg" alt="Sai Baba">
+                        <img src="assets/img7.jpg" alt="Sai Baba">
+                    </div>
+                    <div class="img-flexbox">
+                        <img src="assets/img1.jpg" alt="Sai Baba">
+                        <img src="assets/img5.jpg" alt="Sai Baba">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- <div id="main-events-div">
+                <table id="main-table">
+                    <tr>
+                        <td width="35%" id="temple-timings">
+                            <div class="main-table-title">
+                                <h1>
+                                    Temple Timings
+                                </h1>
+                            </div>
+                            <h2>
+                                Everyday: 
+                                <br>
+                                10:30AM - 12:30PM
+                                <br>
+                                5:30PM - 8PM
+                            </h2>
+                            <div class="main-table-title">
+                                <h1>
+                                    Donate Now
+                                </h1>
+                            </div>
+                            <h2>
+                                The temple serves as a beacon of peace and spirituality for many devotees. We require ongoing support for its upkeep and operational expenses to continue offering this sacred space for worship and community gatherings.
+                                <br>
+                                We'd like to ask you to contribute, no matter how big or small. Every bit counts! ✨
+                                <br>
+                                Donate quickly and securely through the online payment we've included below.
+                            </h2>
+                            <a href="index_copy.html">
+                                <button id="donate-button">
+                                    Donate
+                                </button>
+                            </a>
+                            <h2>
+                                Your generosity will help us preserve this sacred space for generations to come.
+                                <br>
+                                Jai Sai Ram!!
+                            </h2>
+                        </td>
+                        <td width="65%" id="temple-updates">
+                            
+                            <div class="img-flexbox">
+                                <img src="assets/img8.jpg" alt="Sai Baba">
+                                <img src="assets/img9.jpg" alt="Sai Baba">
+                            </div>
+                            <div class="img-flexbox">
+                                <img src="assets/img6.jpg" alt="Sai Baba">
+                                <img src="assets/img7.jpg" alt="Sai Baba">
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+            </div> -->
+            
+        </div>
+
+        <div id="footer">
+            <table id="contact-table">
+                <tr>
+                    <th>
+                        <img src="assets/phone-icon.png" alt="phone image" id="phone-img">
+                    </th>
+                    <th class="contact-text">
+                        <h2>
+                            (918) 928-2999
+                        </h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="assets/email.png" alt="email image" id="email-img">
+                    </th>
+                    <th class="contact-text">
+                        <h2>
+                            saitempletulsa@gmail.com
+                        </h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <a href="https://www.facebook.com/saitempletulsa/" target=”_blank”>
+                            <img src="assets/facebook.webp" alt="facebook logo image" id="facebook-img">
+                        </a>
+                    </th>
+                    <th class="contact-text">
+                        <h2>
+                            Gitacharya Sri Sai Temple
+                        </h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="assets/location.png" alt="location image" id="location-img">
+                    </th>
+                    <th class="contact-text">
+                        <h2>
+                            9724 E 55th Pl, Tulsa, OK, United States, Oklahoma
+                        </h2>
+                    </th>
+                </tr>
+            </table>
+            
+        </div>
+        
+        <script src="assets/script.js" type="text/javascript"></script>
+    </body>
+
+</html>
+
